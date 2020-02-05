@@ -50,9 +50,6 @@ var getRandomInRange = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
 
-// var windowSettingsPersonage = document.querySelector('.setup');
-// windowSettingsPersonage.classList.remove('hidden');
-
 var personages = [];
 
 for (var i = 0; i < 4; i++) {
